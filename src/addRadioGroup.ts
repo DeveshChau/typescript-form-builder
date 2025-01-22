@@ -2,8 +2,8 @@
 
 // Function to add a group of radio buttons with a label
 export function addRadioGroup(groupLabel: string, groupName: string, options: string[]) {
-  // groupLabel = prompt('Provide label value') as string
-  // options = prompt('Give comma separated values')?.split(',') as string[]
+  groupLabel = prompt('Provide label value') as string
+  options = prompt('Give comma separated values')?.split(',') as string[]
   const formContainer: HTMLElement = document.getElementById("formDiv") as HTMLElement
   const container = document.createElement("div");
   container.id = `${groupName}-${Math.ceil(Math.random()*10)}`
