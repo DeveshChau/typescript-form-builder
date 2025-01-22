@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "es6", // Target ES6
+    "module": "es6", // Use ES6 modules
+    "strict": true, // Enable strict type-checking
+    "esModuleInterop": true, // Enable compatibility with ES modules
+    "skipLibCheck": true, // Skip type checking of libraries
+    "moduleResolution": "node", // Resolve modules in node style
+    "sourceMap": true // Generate source maps
+  },
+  "include": ["src/**/*.ts"], // Include TypeScript files in src/
+  "exclude": ["node_modules"] // Exclude node_modules
+}

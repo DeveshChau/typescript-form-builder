@@ -1,0 +1,9 @@
+# Ignore node modules
+node_modules/
+
+# Ignore IDE and editor files
+.idea/
+.vscode/
+*.code-workspace
+# Ignore lock-files
+package-lock.json
